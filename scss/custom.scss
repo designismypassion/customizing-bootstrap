@@ -3,27 +3,42 @@
 
 // Import Google fonts here
 
-
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Source+Sans+3:ital@0;1&display=swap');
 
 // Include any default variable overrides here (colors, font sizes, font family, etc..)
 
-
+$primary: #A04ADD;
+$secondary: #3B53C7;
+$success: #A4D882;
+$info: #59C1EF;
+$warning: #FFF689;
+$danger: #E5446D;
+$light: #f2f2f2;
+$dark: #181853;
 
 // Adjust nav link hover color here
 
-
+$navbar-dark-color: $light;
+$navbar-dark-hover-color: $primary;
 
 // Typography
 // Change font family for base text
 
+$base-font-family: "Source Sans 3", sans-serif;
+
+body {
+    font-family: $base-font-family;
+}
 
 // Change font family for headings
 
-
+$heading-font-family: "Libre Baskerville", serif;
 
 // Change font sizes for h1-h6 using values in assignment
 
-
+h1, h2, h3, h4, h5, h6 {
+    font-family: $heading-font-family
+}
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
