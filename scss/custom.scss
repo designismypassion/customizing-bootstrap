@@ -34,11 +34,14 @@ body {
 
 $heading-font-family: "Libre Baskerville", serif;
 
-// Change font sizes for h1-h6 using values in assignment
-
 h1, h2, h3, h4, h5, h6 {
     font-family: $heading-font-family
 }
+
+// Change font sizes for h1-h6 using values in assignment
+
+$h1-font-size: 3.052rem;
+$h2-font-size: 2.441rem;
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
